@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: ep-test
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /v1/invoices:
+    get:
+      summary: Listar uma Cobrança
+      tags: []
+      responses: {}
+      operationId: get-v1-invoices
+    post:
+      summary: Criar uma Cobrança
+      tags: []
+      responses: {}
+      operationId: post-v1-invoices
+    put:
+      summary: Atualizar uma Cobrança
+      tags: []
+      responses: {}
+      operationId: put-v1-invoices
+components:
+  schemas: {}
